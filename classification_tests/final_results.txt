@@ -1,0 +1,54 @@
+
+
+
+Cazotte_Ollivier 	-->	 PigaultLebrun
+Duvernet_Retraite 	-->	 Sade
+
+715 MFW , culled @ 80%,  21 of 23	(91.3%)
+
+715 MFW , culled @ 80%,  19 of 23	(82.6%)
+
+715 MFW , culled @ 80%,  17 of 23	(73.9%)
+
+715 MFW , culled @ 80%,  22 of 23	(95.7%)
+
+715 MFW , culled @ 80%,  20 of 23	(87%)
+
+715 MFW , culled @ 80%,  21 of 23	(91.3%)
+
+715 MFW , culled @ 80%,  19 of 23	(82.6%)
+
+715 MFW , culled @ 80%,  19 of 23	(82.6%)
+
+715 MFW , culled @ 80%,  20 of 23	(87%)
+
+715 MFW , culled @ 80%,  18 of 23	(78.3%)
+
+715 MFW , culled @ 80%,  19 of 23	(82.6%)
+
+715 MFW , culled @ 80%,  20 of 23	(87%)
+
+715 MFW , culled @ 80%,  20 of 23	(87%)
+
+715 MFW , culled @ 80%,  21 of 23	(91.3%)
+
+715 MFW , culled @ 80%,  19 of 23	(82.6%)
+
+715 MFW , culled @ 80%,  19 of 23	(82.6%)
+
+715 MFW , culled @ 80%,  17 of 23	(73.9%)
+
+715 MFW , culled @ 80%,  19 of 23	(82.6%)
+
+715 MFW , culled @ 80%,  19 of 23	(82.6%)
+
+715 MFW , culled @ 80%,  18 of 23	(78.3%)
+
+715 MFW , culled @ 80%,  20 of 23	(87%)
+
+General attributive success:  21 of 23 (91.3%)
+
+MFWs from 3000 to 3000 @ increment 100
+Culling from 80 to 80 @ increment 20
+Pronouns deleted: FALSE
+
