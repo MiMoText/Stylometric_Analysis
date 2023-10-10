@@ -1,6 +1,6 @@
 import pandas as pd
 
-with open("distance_table_2000_MFW_wurzburg.csv", "r", encoding="utf8") as infile:
+with open("distance_table_3500_MFW_wurzburg_JR.csv", "r", encoding="utf8") as infile:
     dist_table = pd.read_csv(infile, sep=",")
 
 
@@ -10,7 +10,7 @@ anonym = dist_table[["text_dist", "XXX_Etourdi"]]
 print(anonym)
 
 print(anonym.min(skipna=True))
-print(anonym.nsmallest(10, "XXX_Etourdi"))
+print(anonym.nsmallest(15, "XXX_Etourdi"))
 
-nerciat = dist_table[["text_dist", "Nerciat_Felicia"]]
-print(nerciat.nsmallest(10, "Nerciat_Felicia"))
+#nerciat = dist_table[["text_dist", "Nerciat_Felicia"]]
+#print(nerciat.nsmallest(10, "Nerciat_Felicia"))
