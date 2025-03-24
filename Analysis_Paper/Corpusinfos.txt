@@ -1,3 +1,5 @@
+Im Ordner "corpora" liegen verschiedene Korpora:
+
 Ordner "testcorpus":
 - Texte von Autor*innen, die mit mind. 3 Texten in MiMoText vertreten sind
 - ohne fragliches Werk "L'enfant du bordel"
@@ -10,5 +12,5 @@ Order "corpus_more_than_3_samples_Enfant_Mirabeau"
 Order "corpus_sim_topics"
 - Texte, die ähnliche Themen enthalten wie L'enfant du bordel
 - s. https://tinyurl.com/24pv9zu7
-- zusätzliche reduziert auf Texte von Autor*innen, die mind. 3 mal in MiMoText vertreten sind
+- zusätzliche reduziert auf Texte von Autor*innen, die mind. 3 mal in MiMoText vertreten sind (Ausnahme: PiguaultLebrun hier nur 2x vertreten!)
 - zusätzliche L'enfant du bordel

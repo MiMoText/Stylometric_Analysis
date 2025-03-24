@@ -3,7 +3,7 @@
 library(stylo)
 library(tools)
 
-corpus.directory = "corpora/testcorpus"
+corpus.directory = "corpora/corpus_sim_topics/ja"
 
   # corpus_more_than_3_samples_Enfant_Mirabeau
 
@@ -18,12 +18,12 @@ frq.table.3 <- make.table.of.frequencies(corpus = set.3, features=freq.list.3)
 
 
 # Dendrogram
-result_dendo <- stylo(gui=FALSE, frequencies = frq.table.3, mfw.min=3500, mfw.max=3500, corpus.lang ="French", distance.measure="wurzburg",
+result_dendo <- stylo(gui=FALSE, frequencies = frq.table.3, mfw.min=2000, mfw.max=2000, corpus.lang ="French", distance.measure="wurzburg",
                       display.on.screen=FALSE, write.png.file = TRUE, plot.custom.height = 9, plot.font.size=6)
 
 # BootStrap Consensus Tree
-result_bct <- stylo(gui=FALSE, frequencies = frq.table.3, mfw.min=3000, mfw.max=3500, corpus.lang ="French", distance.measure="wurzburg",
+result_bct <- stylo(gui=FALSE, frequencies = frq.table.3, mfw.min=500, mfw.max=2000, corpus.lang ="French", distance.measure="wurzburg",
                     display.on.screen=FALSE, analysis.type="BCT", write.png.file = TRUE, plot.custom.height = 8, plot.font.size=6)
 
 
-write.csv(result_dendo$distance.table, sprintf("distance_table_3500MFW_wurzburg.csv"), row.names = TRUE)
+write.csv(result_dendo$distance.table, sprintf("distance_table_2000MFW_wurzburg.csv"), row.names = TRUE)
