@@ -16,6 +16,9 @@ set.3 <- load.corpus.and.parse(corpus.dir=corpus.directory, corpus.lang="French"
 freq.list.3 <- make.frequency.list(set.3, head=3500)
 frq.table.3 <- make.table.of.frequencies(corpus = set.3, features=freq.list.3)
 
+freq.list.3
+frq.table.3
+
 
 # Dendrogram
 result_dendo <- stylo(gui=FALSE, frequencies = frq.table.3, mfw.min=2000, mfw.max=2000, corpus.lang ="French", distance.measure="wurzburg",
@@ -54,16 +57,11 @@ imposters
 optim_imposters = imposters.optimize(frq.table.all[, 1:500])
 optim_imposters
 # output = parameter p1 and p2
-# ALT distance delta :  => 0.35 0.64
-
-# say how to interpret result
-# values < 0.35 and > 0.64 can ne translated to "no" and "yes" 
 
 optim_imposters_w = imposters.optimize(frq.table.all[, 1:500], distance="wurzburg")
 optim_imposters_w
 
-# => ALT: result: 0.28 0.67
-# => NEU [1] 0.40 0.58
+# => results [1] 0.40 0.58
 
 ## taking 2000 MFWs
 imposters2000 = imposters(reference.set = frq.table.all[-c(1), 1:2000], test = frq.table.all[1,1:2000], distance="wurzburg")
@@ -77,7 +75,7 @@ imposters2000
 optim_imposters2000_w = imposters.optimize(frq.table.all[, 1:2000], distance="wurzburg")
 optim_imposters2000_w
 
-# results NEU: [1] 0.29 0.68
+# results [1] 0.29 0.68
 
 
 ##########################################################################################
@@ -96,10 +94,4 @@ mirabeau = frq.table.all[65:66,]
 mirabeau_imps = frq.table.all[-c(1, 65:66),]
 mirabeau_refs = imposters(reference.set = mirabeau_imps, test = text_to_be_tested, candidate.set = mirabeau, features=0.5)
 mirabeau_refs
-
-
-
-#########
-# narrative Forms
-#########
 
