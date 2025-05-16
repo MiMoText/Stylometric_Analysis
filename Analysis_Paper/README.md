@@ -1,21 +1,3 @@
-Im Ordner "corpora" liegen verschiedene Korpora:
-
-Ordner "testcorpus":
-- Texte von Autor*innen, die mit mind. 3 Texten in MiMoText vertreten sind
-- ohne fragliches Werk "L'enfant du bordel"
-
-Order "corpus_more_than_3_samples_Enfant_Mirabeau"
-- Texte von Autor*innen, die mit mind. 3 Texten in MiMoText vertreten sind
-- zusätzliche "L'enfant du bordel"
-- zusätzliche 2 Texte von Mirabeau
-
-Order "corpus_sim_topics"
-- Texte, die ähnliche Themen enthalten wie L'enfant du bordel
-- s. https://tinyurl.com/24pv9zu7
-- zusätzliche reduziert auf Texte von Autor*innen, die mind. 3 mal in MiMoText vertreten sind (Ausnahme: PiguaultLebrun hier nur 2x vertreten!)
-- zusätzliche L'enfant du bordel
-
-
 General Information
 This repository was created during the work on a paper on stylometric analysis by Julia Röttgermann and Johanna Konstanciak. It contains all data used: the R-script for stylometric analysis, the corpora, results, and the images.
 It focuses on authorship attribution of the novel L'enfant du bordel (1800), which was published anonymously.
