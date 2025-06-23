@@ -1,18 +1,14 @@
-# General Information
-
+# Stylometry and Knowledge Graphs: Authorship Attribution of *L’enfant du bordel* (1800)
 ​
+This repository was created during the work on a paper on stylometric analysis by Julia Röttgermann and Johanna Konstanciak. It contains all data used: the R-script for stylometric analysis, the corpora, results, and the image files.
 
-This repository was created during the work on a paper on stylometric analysis by Julia Röttgermann and Johanna Konstanciak. It contains all data used: the R-script for stylometric analysis, the corpora, results, and the images.
-
-It focuses on authorship attribution of the novel L'enfant du bordel (1800), which was published anonymously.Previously stylometric analysis were part of the project  (2019-2024). The project aimed in building a Knowledge Graph ([MiMoTextBase](https://data.mimotext.uni-trier.de/wiki/Main_Page "MiMoTextBase")) based on information about French novels, published between 1751 and 1800. The Knowledge Graph is fed from various sources: primary texts, bibliographic metadata and secondary literature.
-
+It focuses on authorship attribution of the novel *L'enfant du bordel* (1800), which was published anonymously. Previously stylometric analysis were part of the project  (2019-2024). The project aimed in building a Knowledge Graph ([MiMoTextBase](https://data.mimotext.uni-trier.de/wiki/Main_Page "MiMoTextBase")) based on information about French novels, published between 1751 and 1800. The Knowledge Graph is fed from various sources: primary texts, bibliographic metadata and secondary literature.
 ​
-
 Licence: CC-BY 4.0.
 
 ## corpora
 
-This folder contains different variations on the corpus on French literatur 1751-1800 (Röttgermann 2023 and 2024).
+This folder contains different variations of the corpus on French literature 1751-1800 (Röttgermann 2023 and 2024).
 
 ### "testcorpus":
 
@@ -20,7 +16,7 @@ This folder contains different variations on the corpus on French literatur 1751
 
 * For each author there must be at least 3 different novels present.
 
-* The novel in question (*L'enfant du bordel*) is not included.
+* The novel in question (*L'enfant du bordel*) is not included yet.
 
 * It was used for preliminary tests with different most frequent words (MFW) and cosine delta-distance to determine a suitable score for MFWs. The results for this analysis is found in "results/testcorpus/nMFW".
 
@@ -30,13 +26,13 @@ This folder contains different variations on the corpus on French literatur 1751
 
 * It contains additionally *L'enfant du bordel*.
 
-* Additionally it contains 2 novels written by Mirabeau.
+* Additionally it contains two novels written by Mirabeau.
 
 ### "narrativeForm"
 
 * This corpus has the same assembling as "corpus\_more\_than\_3\_samples\_Enfant\_Mirabeau".
 
-* The filenames are changed accordingly to the narrative form the novel is written in.
+* The filenames are changed according to the narrative form the novel is written in.
 
 * Results on this analysis can be found in: xxx
 
@@ -44,15 +40,15 @@ This folder contains different variations on the corpus on French literatur 1751
 
 The folder "results" contains various subfolders:
 
-* BCT: here are the results and plots for BCT 500-2000 and 2000-3500 MFWs
+* BCT: here are the results and plots for Bootstrap Consensus Tree (BCT) 500-2000 and 2000-3500 MFWs
 
-* dendrograms: plots and files for creating dendrograms with MFW: 500, 1000, 2000, 3500
+* dendrograms: plots and files for creating dendrograms with different most frequent word (MFW) settings: 500, 1000, 2000, 3500
 
-* narrForm: Results and plots for testing influence of narrative forms. MFW=2000 (dendorgram) and 2000-3500 (BCT)
+* narrForm: results and plots for testing influence of narrative forms. MFW=2000 (dendorgram) and 2000-3500 (BCT)
 
-* testcorpus: Results created by using the testcorpus
+* testcorpus: results created by using the testcorpus
 
-* final results for Dendrogram and BCT
+* final results for dendrogram and BCT
 
 ## Script: stylometric\_analysis.R
 
@@ -80,7 +76,7 @@ This folder contains input and results for explorations on the corpus using text
 
 * subfolder "sim\_topics":
 
-  * Additionally: For each author there must be at least 3 different novels present. Exception: PigaultLebrun is represented with 2 novels. As he is a possible candidate for the authorship, they were added.
+  * Additionally: For each author there must be at least 3 different novels present. Exception: Pigault-Lebrun is represented with two novels. As he is a possible candidate for the authorship, they were added.
 
   * Additionally *L'enfant du bordel* is included.
 
